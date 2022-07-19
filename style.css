@@ -4,8 +4,9 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url('images/1.jpg');
-    height: 100vh;
+    background-image: url('images/3.webp');
+    height: 80vh;
+   
     overflow: hidden;
     background-repeat: no-repeat;
     background-position: top center;
@@ -14,7 +15,7 @@ body{
 }
 .app-main{
     width: 50vh;
-    margin: 300px auto;
+    margin: 200px auto;
     background-color: rgba(240, 248, 255, 0.6);
     text-align: center;
     padding: 20px;
@@ -27,8 +28,8 @@ body{
     background-color: rgba(255,255,255,0.6);
     border: none;
     outline: none;
-    color: red;
-    font-size: 1.2rem;
+    color:black;
+    font-size: 1.5rem;
     height: 50px;
     border-radius: 5px;
     padding: 0 10px;
@@ -42,12 +43,13 @@ body{
 
 .weather-body {
     display: none;
-    color: #582233;
+    color: black;
     padding: 20px;
     line-height: 2rem;
     border-radius: 10px;
     background-color: rgba(255,255,255,0.6);
-    height: 50vh;
+    height: 40vh;
+    margin-top:40px ;
 }
 
 .location-details {
@@ -68,4 +70,9 @@ body{
 .min-max, .weather {
     font-size: 12pt;
     font-weight: 600;
+}
+#texts{
+    color: white;
+    font-size: 2.5rem;
+  margin:  100px;
 }
